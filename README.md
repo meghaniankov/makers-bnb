@@ -1,4 +1,8 @@
-Epics:
+#### MAKERS BNB
+Work in teams to build a clone of Airbnb.
+
+
+### Epics:
 
 - Any signed-up user can list a new space.
 - Users can list multiple spaces.
@@ -9,7 +13,7 @@ Epics:
 - Until a user has confirmed a booking request, that space can still be booked for that night.
 
 
-User Stories:
+### User Stories:
 
 As the MakersBnb manger,
 So I can have people use the platform,

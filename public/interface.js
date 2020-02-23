@@ -79,7 +79,7 @@ $(document).ready(function(){
       End Date: ${listings[listing_id].end_date}`
       )
 
-    $('#listing-details').show('puff')
+    $('#listing-details').show()
     $('#homepage-create-booking-btn').show()
     $('#back-btn').show()
     $('#booking').show()

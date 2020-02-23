@@ -1,25 +1,25 @@
-@import url(https://fonts.googleapis.com/css?family=Uncial Antiqua);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 html, body{
   height: 100%;
   font-weight: 800;
-  background-color: red;
-  background-image: url("../images/enternace.jpg")
 }
 
 body{
-  font-family: 'Uncial Antiqua';
+  font-family: 'Montserrat';
   text-align: center;
   color: black;
 }
 
 #header {
-  font-size: 50px;
-  color: white
+  font-size: 40px;
+  margin: 10px;
+  font-weight: bold;
+  color: #ee575d;
 }
 
 [type=submit] {
-  background-color: #851c18;
+  background-color: #ee575d;
   border: none;
   color: white;
   padding: 15px 15px;
@@ -28,13 +28,16 @@ body{
 }
 
 
-button {
-  background-color: #851c18;
+#listing-links {
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px 6px rgba(242,242,242,1);
   border: none;
-  color: white;
-  padding: 30px 30px;
-  margin: 15px 2px;
+  padding: 5px 5px;
+  margin: 15px;
   transition-duration: 0.4s;
+  width: 150px;
+  height: 150px;
+  font-size: 15px;
 }
 
 #listing-details {
@@ -44,8 +47,5 @@ button {
 }
 
 table {
-  background-color: white
-}
-.ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all {
   background-color: white
 }
