@@ -1,16 +1,71 @@
-Epics:
 
-- Any signed-up user can list a new space.
-- Users can list multiple spaces.
-- Users should be able to name their space, provide a short description of the space, and a price per night.
-- Users should be able to offer a range of dates where their space is available.
-- Any signed-up user can request to hire any space for one night, and this should be approved by the user that owns that space.
-- Nights for which a space has already been booked should not be available for users to book that space.
-- Until a user has confirmed a booking request, that space can still be booked for that night.
+# MakersBnB
+
+A single page app clone of Airbnb built in Ruby & Javascript. This was a group project focused on building an MVP while utilizing Agile/XP principles for the first time. The team turned client specs into user stories and then worked on each user story using pair programming. The program allows users to list spaces they have available, and to hire spaces for the night.
+
+This was the first single page app anyone on our team had built. We really enjoyed learning the fundamentals on how to build single page apps.
+
+## App Overview
+
+* Single Page App
+* Ruby/Sinatra server
+* Javascript/Query frontend
+* PostgreSQL database
+
+## The Team
+[David Papamichael](https://github.com/davidpaps) / 
+[Meghan Iankov](https://github.com/meghaniankov) / 
+[Shadi Khazaei](https://github.com/shadz22) / 
+[Ben Auld](https://github.com/Benauld)
+
+## Getting Started
+Before you run the program, make sure your gems are up to date by running:
 
 
-User Stories:
+```
+$ bundle install
+```
 
+After you have installed all gems, run ```rake``` to run all PostgreSQL databse migrations
+
+```
+$ rake
+```
+
+## Running the program
+
+### Start Server
+
+```sh
+$ rackup -p 4567
+```
+
+### View in Browser
+
+```
+localhost:4567
+```
+
+## Running the tests
+
+To run tests for this program, run:
+
+```
+$ rspec
+```
+
+## Built With
+
+* Ruby
+* Javascript
+* Jquery
+* Sinatra
+* PostgreSQL
+* Rspec/Capybara
+
+## User Stories
+
+```
 As the MakersBnb manger,
 So I can have people use the platform,
 I would like t have users sign up
@@ -54,3 +109,5 @@ I would like not show booked nights as available
 As a user,
 So I don't miss out on a booking,
 I would like to only update the nights not available when I approve a booking
+
+```
